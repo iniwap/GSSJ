@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Morning0
+  m_Shader: {fileID: 4800000, guid: 5674c98f0e6c6e24aabcd3db23bbc823, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _CameraRX: -13.64252
+    - _CameraRZ: 44.294773
+    - _HorizonLineContribution: 0.8158257
+    - _HorizonLineExponent: 210.91087
+    - _LightRX: -18.287075
+    - _LightRY: 166.71867
+    - _SkyGradientExponent: 76.937225
+    - _SunDiscContribution: 1
+    - _SunDiscExponent: 6171.978
+    - _SunDiscMultiplier: 9.570505
+    - _SunHaloContribution: 0.38780302
+    - _SunHaloExponent: 509.4051
+    - _Title: 0
+    - __dirty: 0
+    m_Colors:
+    - _HorizonLineColor: {r: 0.6087449, g: 0.6312035, b: 0.69958097, a: 1}
+    - _SkyGradientBottom: {r: 0.30811903, g: 0.33224496, b: 0.04062572, a: 0.4}
+    - _SkyGradientTop: {r: 0.4064651, g: 0.12146492, b: 0.14911576, a: 0.5}
+    - _SunDiscColor: {r: 0.7603841, g: 0.15766491, b: 0.07643951, a: 1}
+    - _SunHaloColor: {r: 0.6172325, g: 0.6241557, b: 0.8442745, a: 1}

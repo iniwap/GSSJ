@@ -1,0 +1,29 @@
+{
+    "group":       "SDK",
+    "libs":        [],
+    "frameworks":  ["ImageIO.framework",
+                    "MessageUI.framework",
+                    "StoreKit.framework",
+                    "GameKit.framework",
+                    "Photos.framework",
+                    "MobileCoreServices.framework",
+                    "JavaScriptCore.framework",
+                    "libz.1.2.5.tbd",
+                    "libicucore.A.tbd",
+                    "libstdc++.6.tbd"
+                    ],
+    "zips":         ["SDK.zip"],                
+    "headerpaths": [],
+    "librarypaths": [],
+    "files":       ["SDK/Required/MOBFoundation.framework",
+                    "SDK/Required/MOBFoundationEx.framework",
+                    "SDK/ShareREC/ShareREC.framework",
+                    "SDK/ShareREC/ShareRECSocial.framework",
+                    "SDK/ShareREC/ShareRECEdit.framework",
+                    "SDK/ShareREC/ShareRECCloud.framework"],
+    "folders":     [],
+    "buildSettings": { 
+        "OTHER_LDFLAGS" : ["-lz"]
+    },
+    "excludes":    ["^.*.meta$", "^.*.mdown^", "^.*.pdf$"]
+}

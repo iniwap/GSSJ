@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sunset6
+  m_Shader: {fileID: 4800000, guid: 5674c98f0e6c6e24aabcd3db23bbc823, type: 3}
+  m_ShaderKeywords: _HORIZONLINEBLENDMODE_LERP _SUNHALOBLENDMODE_ADD _VIEW_FINAL
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _CameraRX: -22
+    - _CameraRZ: 0
+    - _HorizonLineBlendMode: 1
+    - _HorizonLineContribution: 1
+    - _HorizonLineExponent: 5
+    - _LightRX: -16
+    - _LightRY: 195
+    - _SkyGradientExponent: 0.25
+    - _SunDiscContribution: 1
+    - _SunDiscExponent: 5000
+    - _SunDiscExponentSize: 12000
+    - _SunDiscMultiplier: 100
+    - _SunDiscMultiplierSharpness: 1200
+    - _SunHaloBlendMode: 0
+    - _SunHaloContribution: 1
+    - _SunHaloExponent: 250
+    - _View: 0
+    - __dirty: 0
+    m_Colors:
+    - _HorizonLineColor: {r: 0.10980392, g: 0.09411765, b: 0.078431375, a: 1}
+    - _SkyGradientBottom: {r: 0.99607843, g: 0.3882353, b: 0, a: 1}
+    - _SkyGradientTop: {r: 1, g: 0.8745098, b: 0.7137255, a: 1}
+    - _SunDiscColor: {r: 1, g: 0.94117653, b: 0.8705883, a: 1}
+    - _SunHaloColor: {r: 0, g: 0, b: 0, a: 1}

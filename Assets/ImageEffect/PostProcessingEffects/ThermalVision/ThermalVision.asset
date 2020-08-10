@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: ThermalVision
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 5474100748702319869}
+--- !u!114 &5474100748702319869
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272ea0bade7c4444797f1f56d0caf372, type: 3}
+  m_Name: ThermalVision
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  minColor:
+    overrideState: 0
+    value: {r: 0, g: 0, b: 1, a: 1}
+  midColor:
+    overrideState: 0
+    value: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  maxColor:
+    overrideState: 0
+    value: {r: 1, g: 0, b: 0, a: 1}
